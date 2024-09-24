@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRJ Form Validator</title>
+</head>
+<body>
+    <h1>SRJ Form Validator Demo</h1>
+    <form>
+        <label for="numberInput">Number (10/11 digits):</label>
+        <input type="text" id="numberInput" class="srjNumber" placeholder="Enter number">
+    </form>
+
+    <!-- Include your hosted library -->
+    <script src="srj-form-validator.min.js"></script>
+    <script>
+        srjFormValidator.init();
+    </script>
+</body>
+</html>
