@@ -8,14 +8,16 @@
 <body>
     <h1>SRJ Form Validator Demo</h1>
     <form>
-        <label for="numberInput">Number (10/11 digits):</label>
-        <input type="text" id="numberInput" class="srjNumber" placeholder="Enter number">
+        <label for="srjNumber">Enter Number:</label>
+        <input type="tel" class="srjNumber"  maxlength="11" placeholder="Enter number" />
+
+        <label for="srjSpecial">No Special Characters:</label>
+        <input type="text" class="srjSpecial"  placeholder="Enter text without special characters" />
+
+        
+        
     </form>
 
-    <!-- Include your hosted library -->
-    <script src="srj-form-validator.min.js"></script>
-    <script>
-        srjFormValidator.init();
-    </script>
+    <script src="https://surajbhardwaj07.github.io/form-validation/main.min.js"></script>
 </body>
 </html>
